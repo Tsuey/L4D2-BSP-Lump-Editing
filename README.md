@@ -40,7 +40,7 @@ BSPInfo is used to extract all 64 lumps directly.
 The only problem left is that the *.LMP file header is missing, as BSPInfo
 is just RAW extracts:
 
-  https://github.com/Tsuey/L4D2-BSP-Lump-Editing/blob/main/Only%20Header%20is%20Missing.jpg
+  ![alt text](https://github.com/Tsuey/L4D2-BSP-Lump-Editing/blob/main/Only%20Header%20is%20Missing.jpg)
 
 Software will need to be written that allows selection of the desired lump,
 most likely LUMP_ENTITIES (but others would be fun to experiment with), then
