@@ -49,14 +49,14 @@ most likely LUMP_ENTITIES (but others would be fun to experiment with), then
 adding the *.LMP's fixed-size 20-byte header before the actual lump data.
 It contains info about the lump that was in the BSP before extraction.
 
-  struct lumpfileheader_t
-  {
-    int lumpOffset;   // offset in the file where the lump data begins (should be 0x14)
-    int lumpID;       // the lump ID according to the lump table
-    int lumpVersion;  // same as "version" in lump_t	
-    int lumpLength;   // same as "filelen" in lump_t
-    int mapRevision;  // same as in dheader_t
-  };
+    struct lumpfileheader_t
+    {
+      int lumpOffset;   // offset in the file where the lump data begins (should be 0x14)
+      int lumpID;       // the lump ID according to the lump table
+      int lumpVersion;  // same as "version" in lump_t	
+      int lumpLength;   // same as "filelen" in lump_t
+      int mapRevision;  // same as in dheader_t
+    };
 
 From there, further software to facilitate Hex Editing LUMP_BRUSHES is
 needed to change the Bitflags to open up new Survivor / Infected pathing.
