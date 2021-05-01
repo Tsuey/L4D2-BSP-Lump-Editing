@@ -216,6 +216,9 @@ Compiled PC Live BSP's (Extracted Lumps Raw):
     for the original BSP files -- data integrity is critical and
     we need to know we're all starting from identical BSP's.
 
+    NOTE: If the Index # is missing, then it was a 0-byte lump.
+    Github refuses to upload empty files for bizarre reasons.
+
 Compiled PC Live LMP's:
 
     All TLS Community Update *.LMP files reside here, including
