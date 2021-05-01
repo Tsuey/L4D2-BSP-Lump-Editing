@@ -157,12 +157,12 @@ All these should be tested until Source begs for mercy:
 Edited from Wiki. Lump 18 LUMP_BRUSHES contains constructive solid geometry
 defined by planes. The lump is an array of 12-byte dbrush_t structures:
 
-		struct dbrush_t
-		{
-			int	firstside;	// first brushside
-			int	numsides;	// number of brushsides
-			int	contents;	// contents flags
-		};
+	struct dbrush_t
+	{
+		int	firstside;	// first brushside
+		int	numsides;	// number of brushsides
+		int	contents;	// contents flags
+	};
 
 Which includes info about the sides of the brush and a "contents" Bitflag
 that determines the content of the brush. Values are binary-ORed together
