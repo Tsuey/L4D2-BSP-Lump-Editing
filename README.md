@@ -24,7 +24,8 @@ recompiling maps is strictly forbidden due to testing costs and risks.
 
 The normal way to create *.LMP files is to decompile the original map,
 load the resulting *.VMF in Hammer, make the edits, then compile out just
-the modified lump -- almost exclusively this is LUMP_ENTITIES at Index 0.
+the modified lump -- almost exclusively this is LUMP_ENTITIES at Index 0,
+since that's a plaintext lump BSPSource can decompile flawlessly.
 
 But many lumps exist, such as LUMP_BRUSHES at Index 18:
 
@@ -63,7 +64,7 @@ needed to change the Bitflags to open up new Survivor / Infected pathing.
 
 Trivia: It is possible to edit BSP files server-side if only LUMP_ENTITIES
 is changed. It's also possible to edit an extracted LUMP_ENTITIES with a
-plain text editor, provided the lumpSize field is corrected afterwards.
+plaintext editor, provided the lumpSize field is corrected afterwards.
 The third-party tool below could help automate or educate on this process:
 
   https://archive.org/details/lmpfix
