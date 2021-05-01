@@ -216,8 +216,24 @@ Compiled PC Live BSP's (Extracted Lumps Raw):
     for the original BSP files -- data integrity is critical and
     we need to know we're all starting from identical BSP's.
 
-    NOTE: If the Index # is missing, then it was a 0-byte lump.
-    Github refuses to upload empty files for bizarre reasons.
+    NOTE:
+
+	If an Index # is completely missing, then it was a 0-byte
+	lump. Github refuses empty files for some bizarre reason.
+	Empty lumps serve no purpose anyway.
+
+	Github also has a File Size limit of 25 MB. A total of 3
+	lump extracts were excluded from this repository, the top
+	4 largest files overall listed below:
+
+		File Size	Relative Path
+
+		31,379,587	\c4m1_milltown_a\40_LUMP_PAKFILE.bin
+		31,639,064	\c4m4_milltown_b\40_LUMP_PAKFILE.bin
+		31,357,837	\c4m5_milltown_escape\40_LUMP_PAKFILE.bin
+		25,594,088	\c14m1_junkyard\40_LUMP_PAKFILE.bin
+
+	Where c14m1 narrowly fit below 25 MB (26,214,400 bytes).
 
 Compiled PC Live LMP's:
 
