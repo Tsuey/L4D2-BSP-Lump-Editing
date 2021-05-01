@@ -68,6 +68,13 @@ The third-party tool below could help automate or educate on this process:
 
   https://archive.org/details/lmpfix
 
+It has been confirmed that editing the LUMP_BRUSHES lump server-side will
+fail the client checksum check... it's up to experimentation to see if any
+other lumps (besides LUMP_ENTITIES) can differ -- but highly unlikely! It
+works for LUMP_ENTITIES since everything in that IS server-side (though
+admittedly I haven't accounted for where debris physics props are stored,
+such as soda cans and pizza boxes, which DO NOT count toward edict limit).
+
 # Folders
 
 Compiled PC Live BSP's (Extracted Lumps Raw):
