@@ -72,7 +72,7 @@ The third-party tool below could help automate or educate on this process:
 
 Compiled PC Live BSP's (Extracted Lumps Raw):
 
-	The original 62 BSP map files from the PC version were copied,
+  The original 62 BSP map files from the PC version were copied,
   hashed (see *.TXT file), then fed into BSPInfo to extract all
   64 of their lumps. There are 3968 files total, or 62 * 64.
   All are RAW lump data, without the headers needed by *.LMP's.
@@ -83,7 +83,7 @@ Compiled PC Live BSP's (Extracted Lumps Raw):
 
 Compiled PC Live LMP's:
 
-	All TLS Community Update *.LMP files reside here, including
+  All TLS Community Update *.LMP files reside here, including
   a *.LMP.BAK that can be ignored. All Modes post-fix the map
   names with _l_, Scavenge _s_, and Survival _h_ (Holdout,
   not to be confused with the Holdout Mutation).
