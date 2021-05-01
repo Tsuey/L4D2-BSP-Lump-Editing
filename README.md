@@ -74,7 +74,8 @@ fail the client checksum check... it's up to experimentation to see if any
 other lumps (besides LUMP_ENTITIES) can differ -- but highly unlikely! It
 works for LUMP_ENTITIES since everything in that IS server-side (though
 admittedly I haven't accounted for where debris physics props are stored,
-such as soda cans and pizza boxes, which DO NOT count toward edict limit).
+such as soda cans and pizza boxes, which DO NOT count toward edict limit
+because they are client-side).
 
 # Folders
 
