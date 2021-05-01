@@ -9,9 +9,9 @@ lumps is an exact science.
 
 Information below is summarized from:
 
-    https://developer.valvesoftware.com/wiki/Source_BSP_File_Format
-    https://developer.valvesoftware.com/wiki/Lump_file_format
-    https://developer.valvesoftware.com/wiki/Patching_levels_with_lump_files
+ https://developer.valvesoftware.com/wiki/Source_BSP_File_Format
+ https://developer.valvesoftware.com/wiki/Lump_file_format
+ https://developer.valvesoftware.com/wiki/Patching_levels_with_lump_files
 
 See "Lump Hashes and Information.txt" for MD5, SHA1, File Sizes and more.
 
