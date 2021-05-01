@@ -5,9 +5,11 @@ Faking BSP recompiles for real this time... maybe.
 Map lump extraction used BSPInfo 1.4.0. "Successfully extracted all lumps."
 
 Unlike BSP decompilation which produces errors and guesswork, extracting
-lumps is an exact science. More information:
+lumps is an exact science.
 
-	https://developer.valvesoftware.com/wiki/Source_BSP_File_Format
+Information below is summarized from:
+
+  https://developer.valvesoftware.com/wiki/Source_BSP_File_Format
   https://developer.valvesoftware.com/wiki/Lump_file_format
   https://developer.valvesoftware.com/wiki/Patching_levels_with_lump_files
 
