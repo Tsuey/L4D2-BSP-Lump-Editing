@@ -37,7 +37,7 @@ but maintaining *.LMP files is more accountable with smaller file sizes.
 The problem with the "normal way" is these are compiled brushes, and using
 decompiled VMF's in that case would be very destructive since decompiles
 are perfect for LUMP_ENTITIES but guessworked for LUMP_BRUSHES. Instead,
-BSPInfo is used to extract all 64 lumps directly.
+BSPInfo is used to extract all 64 lumps directly from Valve's shipped BSP.
 
 The only problem left is that the *.LMP file header is missing, as BSPInfo
 is just RAW extracts:
