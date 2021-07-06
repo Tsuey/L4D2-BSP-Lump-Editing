@@ -251,7 +251,7 @@ seen at the end of a Hammer compile log:
 
     -liststaticprops	Dumps prop_static data (only CSGO may support Version 7-10)
 
-    -size		Dumps the worldmodel bounds of the BSP, with and without skybox
+    -size			Dumps the worldmodel bounds of the BSP, with and without skybox
 
     -drawtree		Ignore/deprecated (-treeinfo adds "TREE INFO:" section, otherwise these are identical)
 
