@@ -328,6 +328,28 @@ Compiled PC Live BSP's (Extracted Lumps Raw):
 
 	Where c14m1 narrowly fit below 25 MB (26,214,400 bytes).
 
+Compiled PC Live BSP's (Extracted Lumps VBSPINFO):
+
+    VBSPINFO includes all 20-byte *.LMP headers already. The *.BIN
+    RAW files lack the 20-byte header but are still useful to analyze
+    in cases where the filesize is same as "fileLen".
+
+    See "_VBSPINFO_GENERATION_DETAILS.TXT" for the *.BAT that made
+    these and the research (toward 0-byte lumps) that went into it,
+    and verbose output for all 62 maps with the optional parameters.
+
+    NOTE:
+
+	Zeroing all *.LMP's works -- except LUMP 35 GAME LUMP,
+	which contains its own sub-lumps and "Offset behavior"
+	so needs to be either hacked or fixed to use *.LMP files
+	to non-destructively modify prop_static.
+
+	LUMP 35 is still included -- as is ~310 MB of lighting
+	lumps, but ~700 MB PAKFILES are 100% excluded, and lumps
+	that are proven (see *.TXT) to be 0-bytes for all 62 maps
+	aren't even part of the VBSPINFO *.BAT script.
+
 Compiled PC Live LMP's:
 
     All TLS Community Update *.LMP files reside here, including
