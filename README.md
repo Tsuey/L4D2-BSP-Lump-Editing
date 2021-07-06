@@ -315,18 +315,18 @@ Compiled PC Live BSP's (Extracted Lumps Raw):
         lump. Github refuses empty files for some bizarre reason.
         Empty lumps serve no purpose anyway.
 
-	Github also has a File Size limit of 25 MB. A total of 3
-	lump extracts were excluded from this repository, the top
-	4 largest files overall listed below:
+        Github also has a File Size limit of 25 MB. A total of 3
+        lump extracts were excluded from this repository, the top
+        4 largest files overall listed below:
 
-		File Size	Relative Path
+            File Size	Relative Path
 
-		31,379,587	\c4m1_milltown_a\40_LUMP_PAKFILE.bin
-		31,639,064	\c4m4_milltown_b\40_LUMP_PAKFILE.bin
-		31,357,837	\c4m5_milltown_escape\40_LUMP_PAKFILE.bin
-		25,594,088	\c14m1_junkyard\40_LUMP_PAKFILE.bin
+            31,379,587	\c4m1_milltown_a\40_LUMP_PAKFILE.bin
+            31,639,064	\c4m4_milltown_b\40_LUMP_PAKFILE.bin
+            31,357,837	\c4m5_milltown_escape\40_LUMP_PAKFILE.bin
+            25,594,088	\c14m1_junkyard\40_LUMP_PAKFILE.bin
 
-	Where c14m1 narrowly fit below 25 MB (26,214,400 bytes).
+    Where c14m1 narrowly fit below 25 MB (26,214,400 bytes).
 
 Compiled PC Live BSP's (Extracted Lumps VBSPINFO):
 
@@ -340,15 +340,15 @@ Compiled PC Live BSP's (Extracted Lumps VBSPINFO):
 
     NOTE:
 
-	Zeroing all *.LMP's works -- except LUMP 35 GAME LUMP,
-	which contains its own sub-lumps and "Offset behavior"
-	so needs to be either hacked or fixed to use *.LMP files
-	to non-destructively modify prop_static.
+        Zeroing all *.LMP's works -- except LUMP 35 GAME LUMP,
+        which contains its own sub-lumps and "Offset behavior"
+        so needs to be either hacked or fixed to use *.LMP files
+        to non-destructively modify prop_static.
 
-	LUMP 35 is still included -- as is ~310 MB of lighting
-	lumps, but ~700 MB PAKFILES are 100% excluded, and lumps
-	that are proven (see *.TXT) to be 0-bytes for all 62 maps
-	aren't even part of the VBSPINFO *.BAT script.
+        LUMP 35 is still included -- as is ~310 MB of lighting
+        lumps, but ~700 MB PAKFILES are 100% excluded, and lumps
+        that are proven (see *.TXT) to be 0-bytes for all 62 maps
+        aren't even part of the VBSPINFO *.BAT script.
 
 Compiled PC Live LMP's:
 
@@ -359,3 +359,125 @@ Compiled PC Live LMP's:
 
     These files establish a comparison base for *.LMP headers
     that need to be constructed for the RAW lump extracts.
+
+Decompiled 1.3.18 PC Live VMF's (Excludes LMP's):
+
+    Default settings. Same approach used here for version 1.4.0,
+    which includes the erroneous func_ladder dupes:
+
+        https://github.com/Tsuey/L4D2-Decompiled-Assets
+
+    NOT USED for *.LMP editing -- but maybe Propper work.
+
+Decompiled 1.3.18 PC Live VMF's (Excludes LMP's, Entities Disabled with Debug Mode):
+
+    Long title... but needs to be specific.
+
+    Default settings EXCEPT "Entities" are DISABLED completely,
+    and "Debug Mode" is ACTIVE. Hammer has a niche, useful feature
+    "Show Selected Brush Number". Survivor/Infected clips usually
+    work fine with this since those brushes occur as earlier Solids,
+    but when Solids are "Grouped" into func_details, it adds extra
+    redundancy (two of the same Solid, one outside the func_detail
+    and one inside). The count is messed up if you Ungroup, and
+    changing Selection Mode to be Solids is unsupported by it.
+
+    NOTE:
+
+        Entities like func_elevator have their Brushes
+        "Moved to Entity". While func_details work since
+        the decompiled *.VMF has redundant data that
+        already represents it as "Moved to World", when
+        you don't decompile Entities there's no elevator.
+
+        Static world brushes -- that's all this works for,
+        dynamic world brushes won't even appear at 0 0 0
+        map origin (that's a BSP runtime thing anyway).
+
+        Also, BSPSource allows Disabling func_detail only,
+        but there's various types of func_ entities and
+        we need to ensure we're only getting World Solids.
+
+    So, "Entities" are DISABLED. Since "Debug Mode" only adds extra
+    info to Solid and Side data (like BRUSHSIDES / TEXINFO), and all
+    I'm decompiling is the world itself, might as well add a few MB
+    to filesize to have access to data that can be theoretically
+    useful, but will not impact/change the Hammer experience.
+
+Decompiled 1.3.18 PC Live VMF's (Excludes LMP's, Split faces only):
+
+    Default settings EXCEPT Face Mode is "Split faces only".
+    Throwaway cannonfodder so no "Debug Mode" here.
+
+    NOTE:
+
+        Excluded from repo:
+
+            Decompiled files are over twice the size as
+            normal. Normal decompiles are just as easy to
+            use, and most face ID'ing done with in-game
+            commands anyway... this is only useful for
+            double-checking in-game work, since it more
+            accurately represents the engine's rendering.
+
+        Will warn of possibly 100's of broken Solids on open.
+        Don't "repair" them. When VBSP compiles maps, the
+        LUMP 27 ORIGINALFACES go through a "splitting process".
+
+        If VRAD + HDR is active, LUMP 58 FACES_HDR contains
+        the split faces -- if not, LUMP 7 FACES does. If LUMP 58
+        is 0-bytes (just the 20-byte header), it'll fallback to
+        LUMP 7, and if that's empty the map fails to load with
+        a console error (doesn't crash).
+
+    Includes "Entities", but only for point of reference / comfort
+    when restoring "EFFECTS/CLEARDRAW"'d Faces with Propper or
+    other work. Brush count will be broken, and that's OK, since
+    this exists to double-check in-game work with "mat_surfaceid 2"
+    and "mat_wireframe 3".
+
+Decompiled 1.3.18 PC Live VMF's (Includes LMP's All Modes):
+
+    BSPSource supports reading *.LMP files and integrating them
+    into the decompile. All Modes (l), Scavenge (s), and Survival (h),
+    where "All Modes" excludes Scavenge/Survival, had all *.LMP's
+    beside the *.BSP's. This will include TLS' LUMP 0 ENTITIES
+    changes, but likely exclude Scavenge/Survival (unique to L4D2).
+
+    NOT USED for *.LMP editing -- but good references.
+
+Releases:
+
+    "EFFECTS/CLEARDRAW" :: Texturing models as NODRAW with BSP
+    edits still renders the yellow texture -- only VBSP cares
+    about NODRAW (or SKIP) and trims Faces lumps accordingly.
+    Deleting data with *.LMP's is dangerous, so just make them
+    clear instead. Copied "EFFECTS/CLEAR" (shipped with DLC2)
+    and renamed to 17 characters to match "TOOLS/TOOLSNODRAW"
+    so that it can be (harmlessly) replaced in LUMP 43 STRINGDATA
+    and actually be put to use. Note that LUMP 18 BRUSHES will
+    also make all these non-solid, so while LUMP 19 BRUSHSIDES
+    handles bullet collision / decals, those are irrelevant if
+    there's no collision at all. All these actually render:
+
+        https://developer.valvesoftware.com/wiki/Tool_textures
+
+    "Left 4 Orange (Alpha)" :: Tech details via Workshop link. Uses
+    a *.BAT file to create *.LMP files for all modes (even those
+    which lack Scavenge/Survival, for simplicity). Copy/pastes
+    the same two LUMP 43 STRINGDATA and LUMP 44 STRINGTABLE files
+    for every map, tested to work for any map.
+
+        https://steamcommunity.com/sharedfiles/filedetails/?id=2499145097
+
+    "bsp_l4d2.h" :: HHD Hex Editor Neo structures for reading
+    and modifying *.BSP or, more ideally, extracted *.LMP files.
+    Includes verbose documentation and conclusive tests of how
+    the various lumps work. Also recommended:
+
+        https://github.com/orinuse/BSPStructsL4D2-HexEditNeo
+
+NOTE:
+
+Github's limit per repo is 1 GB of compressed data. When downloaded,
+then de-compressed, this repo is nearer to 2 GB.
