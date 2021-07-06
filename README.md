@@ -330,6 +330,8 @@ Compiled PC Live BSP's (Extracted Lumps Raw):
 
 Compiled PC Live BSP's (Extracted Lumps VBSPINFO):
 
+    Excludes 40_LUMP_PAKFILE: saves ~700 MB, won't use it anyway.
+
     VBSPINFO includes all 20-byte *.LMP headers already. The *.BIN
     RAW files lack the 20-byte header but are still useful to analyze
     in cases where the filesize is same as "fileLen".
