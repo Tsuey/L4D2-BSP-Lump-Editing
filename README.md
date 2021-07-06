@@ -203,6 +203,99 @@ and defined in public/bspflags.h (brush array is limited to 8192 entries):
 	CONTENTS_LADDER			0x20000000
 	CONTENTS_HITBOX			0x40000000	use accurate hitboxes on trace
 
+# VBSPINFO
+
+See "_VBSPINFO_GENERATION_DETAILS.TXT" for extensive elaboration on
+the process used, and "File Hashes and Information.txt" for the
+MD5, SHA1, File Sizes, etc. that resulted from that automated work.
+
+Instead of using BSPSource's bundled BSPInfo GUI, use Valve's
+tool instead -- it includes the 20-byte headers. GCFScape by
+NemTools can also extract them but stay first-party instead.
+
+  https://developer.valvesoftware.com/wiki/Vbspinfo
+
+Extracting *.LMP files directly from the *.BSP is 100% lossless,
+whereas map recompiles significantly change Face array indices etc.
+
+To use it, open CMD.EXE then CD to your maps, then run VBSPINFO,
+where -X# is 0-63 (only 64 lumps, will crash if -X64 is specified):
+
+    cd "X:\<<__PATH_HERE__>>\Compiled PC Live BSP's (Again and Identical)"
+
+    "C:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\bin\vbspinfo.exe" -X# cXmX_mapname.bsp
+
+See "_VBSPINFO_DRAG_AND_DROP.BAT" for this script, which prompts
+for the desired *.LMP # to extract, then executes:
+
+    set /p ID="Lump #: "
+
+    cd "C:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\bin"
+
+    vbspinfo.exe -X%ID% %1
+
+    pause
+
+This Github repo already has all official 62 map *.LMP extracts driven
+by the much larger *.TXT file -- but above is useful for Test Maps.
+
+Optional parameters are also offered, again for all 62 maps their
+output is logged in the *.TXT file. Dumps information typically
+seen at the end of a Hammer compile log:
+
+    -treeinfo		Dumps BSP tree info
+
+    -worldtexturestats	Dumps list of textures used on Brushes and number of surfaces per use
+
+    -modelstats		Dumps list of studiomodels used and number of times each is used
+
+    -liststaticprops	Dumps prop_static data (only CSGO may support Version 7-10)
+
+    -size		Dumps the worldmodel bounds of the BSP, with and without skybox
+
+    -drawtree		Ignore/deprecated (-treeinfo adds "TREE INFO:" section, otherwise these are identical)
+
+	Does create a "scratch.pad" 1,473-byte file, identical for 2
+	different Test Maps, with "E B A E ?" as non-human readable
+	text. May have secret use, but out of scope for *.LMP's.
+
+That's all the parameters offered. Note there may be more, but
+Valve only offers the source code for VBSP, VRAD, and VVIS:
+
+  https://github.com/ValveSoftware/source-sdk-2013/tree/master/mp/src/utils
+
+VBSPINFO is mostly just a commandline program, the actual lump
+extraction (and subsequent READ/WRITE issues with LUMP 35 GAME LUMP)
+could be identified in this function, which the -X# parameter calls:
+
+    void WriteLumpToFile( char *filename, int lump )
+
+Defined here:
+
+  https://github.com/ValveSoftware/source-sdk-2013/blob/master/mp/src/utils/common/bsplib.cpp#L2750
+
+# BSPSource Bug
+
+Map decompiles used BSPSource 1.3.18 with "Folders" section settings.
+
+Starting immediately with version 1.3.19, a bug/feature was introduced
+that results in L4D2 ladders getting duped -- for every func_ladder in
+Hammer, there were exactly two stacked up on top of each other.
+
+Brush counts get messed up from this, so for LUMP editing just use
+the older version.
+
+  Good: older version
+  https://github.com/ata4/bspsrc/releases/tag/v1.3.18
+
+  Bad: "Brushes flagged as ladders are now written as func_ladder entities"
+  https://github.com/ata4/bspsrc/releases/tag/v1.3.19
+
+Concerning issue:
+
+  [L4D2/Any] 07_LUMP_FACES can be zeroed to protect from decompilation
+  https://github.com/ata4/bspsrc/issues/131
+
 # Folders
 
 Compiled PC Live BSP's (Extracted Lumps Raw):
