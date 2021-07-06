@@ -311,9 +311,9 @@ Compiled PC Live BSP's (Extracted Lumps Raw):
 
     NOTE:
 
-	If an Index # is completely missing, then it was a 0-byte
-	lump. Github refuses empty files for some bizarre reason.
-	Empty lumps serve no purpose anyway.
+        If an Index # is completely missing, then it was a 0-byte
+        lump. Github refuses empty files for some bizarre reason.
+        Empty lumps serve no purpose anyway.
 
 	Github also has a File Size limit of 25 MB. A total of 3
 	lump extracts were excluded from this repository, the top
