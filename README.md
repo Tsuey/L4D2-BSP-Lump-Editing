@@ -255,9 +255,9 @@ seen at the end of a Hammer compile log:
 
     -drawtree		Ignore/deprecated (-treeinfo adds "TREE INFO:" section, otherwise these are identical)
 
-			Does create a "scratch.pad" 1,473-byte file, identical for 2
-			different Test Maps, with "E B A E ?" as non-human readable
-			text. May have secret use, but out of scope for *.LMP's.
+				Does create a "scratch.pad" 1,473-byte file, identical for 2
+				different Test Maps, with "E B A E ?" as non-human readable
+				text. May have secret use, but out of scope for *.LMP's.
 
 That's all the parameters offered. Note there may be more, but
 Valve only offers the source code for VBSP, VRAD, and VVIS:
