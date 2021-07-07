@@ -1,0 +1,903 @@
+THE FILES IN THIS MOD WERE SEMI-AUTO-GENERATED
+
+Lump files added with TLS, so start new ones at _l_1 *NOT* _l_0:
+
+	https://github.com/Tsuey/L4D2-BSP-Lump-Editing
+
+	\Compiled PC Live LMP's\All Modes\c1m1_hotel_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c1m2_streets_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c1m3_mall_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c1m4_atrium_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c2m1_highway_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c2m2_fairgrounds_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c2m3_coaster_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c2m4_barns_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c2m5_concert_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c2m5_concert_l_0.lmp.bak	<--- NOTE
+	\Compiled PC Live LMP's\All Modes\c3m1_plankcountry_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c3m2_swamp_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c3m3_shantytown_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c3m4_plantation_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c4m1_milltown_a_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c4m2_sugarmill_a_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c4m3_sugarmill_b_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c4m4_milltown_b_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c4m5_milltown_escape_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c5m1_waterfront_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c5m2_park_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c5m3_cemetery_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c5m4_quarter_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c5m5_bridge_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c6m1_riverbank_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c6m2_bedlam_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c6m3_port_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c7m1_docks_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c7m2_barge_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c7m3_port_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c8m1_apartment_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c8m2_subway_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c8m3_sewers_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c8m4_interior_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c8m5_rooftop_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c9m1_alleys_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c9m2_lots_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c10m1_caves_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c10m2_drainage_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c10m3_ranchhouse_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c10m4_mainstreet_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c10m5_houseboat_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c11m1_greenhouse_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c11m2_offices_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c11m3_garage_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c11m4_terminal_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c11m5_runway_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c12m1_hilltop_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c12m2_traintunnel_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c12m3_bridge_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c12m4_barn_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c12m5_cornfield_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c13m1_alpinecreek_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c13m2_southpinestream_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c13m3_memorialbridge_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c13m4_cutthroatcreek_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c14m1_junkyard_l_0.lmp
+	\Compiled PC Live LMP's\All Modes\c14m2_lighthouse_l_0.lmp
+
+These maps need to start at _l_0 since TLS didn't replace any lumps:
+
+	\Compiled PC Live BSP's (Extracted Lumps Raw)\c5m1_waterfront_sndscape\
+	\Compiled PC Live BSP's (Extracted Lumps Raw)\credits\
+	\Compiled PC Live BSP's (Extracted Lumps Raw)\curling_stadium\
+	\Compiled PC Live BSP's (Extracted Lumps Raw)\tutorial_standards\
+	\Compiled PC Live BSP's (Extracted Lumps Raw)\tutorial_standards_vs\
+
+Take NOTE of the "c2m5_concert_l_0.lmp.bak", which is present in the above GITHUB
+listing but in the actual file deliverables that TLS-made "backup" file was cut below.
+
+FINAL FILE NAMES
+
+Thus the final names of the files in this package:
+
+	ALL MODES (EXCEPT SURVIVAL & SCAVENGE)
+
+		LUMP 43 STRINGDATA
+
+			c1m1_hotel_l_1.lmp
+			c1m2_streets_l_1.lmp
+			c1m3_mall_l_1.lmp
+			c1m4_atrium_l_1.lmp
+			c2m1_highway_l_1.lmp
+			c2m2_fairgrounds_l_1.lmp
+			c2m3_coaster_l_1.lmp
+			c2m4_barns_l_1.lmp
+			c2m5_concert_l_1.lmp
+			c3m1_plankcountry_l_1.lmp
+			c3m2_swamp_l_1.lmp
+			c3m3_shantytown_l_1.lmp
+			c3m4_plantation_l_1.lmp
+			c4m1_milltown_a_l_1.lmp
+			c4m2_sugarmill_a_l_1.lmp
+			c4m3_sugarmill_b_l_1.lmp
+			c4m4_milltown_b_l_1.lmp
+			c4m5_milltown_escape_l_1.lmp
+			c5m1_waterfront_l_1.lmp
+			c5m2_park_l_1.lmp
+			c5m3_cemetery_l_1.lmp
+			c5m4_quarter_l_1.lmp
+			c5m5_bridge_l_1.lmp
+			c6m1_riverbank_l_1.lmp
+			c6m2_bedlam_l_1.lmp
+			c6m3_port_l_1.lmp
+			c7m1_docks_l_1.lmp
+			c7m2_barge_l_1.lmp
+			c7m3_port_l_1.lmp
+			c8m1_apartment_l_1.lmp
+			c8m2_subway_l_1.lmp
+			c8m3_sewers_l_1.lmp
+			c8m4_interior_l_1.lmp
+			c8m5_rooftop_l_1.lmp
+			c9m1_alleys_l_1.lmp
+			c9m2_lots_l_1.lmp
+			c10m1_caves_l_1.lmp
+			c10m2_drainage_l_1.lmp
+			c10m3_ranchhouse_l_1.lmp
+			c10m4_mainstreet_l_1.lmp
+			c10m5_houseboat_l_1.lmp
+			c11m1_greenhouse_l_1.lmp
+			c11m2_offices_l_1.lmp
+			c11m3_garage_l_1.lmp
+			c11m4_terminal_l_1.lmp
+			c11m5_runway_l_1.lmp
+			c12m1_hilltop_l_1.lmp
+			c12m2_traintunnel_l_1.lmp
+			c12m3_bridge_l_1.lmp
+			c12m4_barn_l_1.lmp
+			c12m5_cornfield_l_1.lmp
+			c13m1_alpinecreek_l_1.lmp
+			c13m2_southpinestream_l_1.lmp
+			c13m3_memorialbridge_l_1.lmp
+			c13m4_cutthroatcreek_l_1.lmp
+			c14m1_junkyard_l_1.lmp
+			c14m2_lighthouse_l_1.lmp
+
+		LUMP 44 STRINGTABLE
+
+			c1m1_hotel_l_2.lmp
+			c1m2_streets_l_2.lmp
+			c1m3_mall_l_2.lmp
+			c1m4_atrium_l_2.lmp
+			c2m1_highway_l_2.lmp
+			c2m2_fairgrounds_l_2.lmp
+			c2m3_coaster_l_2.lmp
+			c2m4_barns_l_2.lmp
+			c2m5_concert_l_2.lmp
+			c3m1_plankcountry_l_2.lmp
+			c3m2_swamp_l_2.lmp
+			c3m3_shantytown_l_2.lmp
+			c3m4_plantation_l_2.lmp
+			c4m1_milltown_a_l_2.lmp
+			c4m2_sugarmill_a_l_2.lmp
+			c4m3_sugarmill_b_l_2.lmp
+			c4m4_milltown_b_l_2.lmp
+			c4m5_milltown_escape_l_2.lmp
+			c5m1_waterfront_l_2.lmp
+			c5m2_park_l_2.lmp
+			c5m3_cemetery_l_2.lmp
+			c5m4_quarter_l_2.lmp
+			c5m5_bridge_l_2.lmp
+			c6m1_riverbank_l_2.lmp
+			c6m2_bedlam_l_2.lmp
+			c6m3_port_l_2.lmp
+			c7m1_docks_l_2.lmp
+			c7m2_barge_l_2.lmp
+			c7m3_port_l_2.lmp
+			c8m1_apartment_l_2.lmp
+			c8m2_subway_l_2.lmp
+			c8m3_sewers_l_2.lmp
+			c8m4_interior_l_2.lmp
+			c8m5_rooftop_l_2.lmp
+			c9m1_alleys_l_2.lmp
+			c9m2_lots_l_2.lmp
+			c10m1_caves_l_2.lmp
+			c10m2_drainage_l_2.lmp
+			c10m3_ranchhouse_l_2.lmp
+			c10m4_mainstreet_l_2.lmp
+			c10m5_houseboat_l_2.lmp
+			c11m1_greenhouse_l_2.lmp
+			c11m2_offices_l_2.lmp
+			c11m3_garage_l_2.lmp
+			c11m4_terminal_l_2.lmp
+			c11m5_runway_l_2.lmp
+			c12m1_hilltop_l_2.lmp
+			c12m2_traintunnel_l_2.lmp
+			c12m3_bridge_l_2.lmp
+			c12m4_barn_l_2.lmp
+			c12m5_cornfield_l_2.lmp
+			c13m1_alpinecreek_l_2.lmp
+			c13m2_southpinestream_l_2.lmp
+			c13m3_memorialbridge_l_2.lmp
+			c13m4_cutthroatcreek_l_2.lmp
+			c14m1_junkyard_l_2.lmp
+			c14m2_lighthouse_l_2.lmp
+
+	SURVIVAL ONLY
+
+		LUMP 43 STRINGDATA
+
+			c1m1_hotel_h_1.lmp
+			c1m2_streets_h_1.lmp
+			c1m3_mall_h_1.lmp
+			c1m4_atrium_h_1.lmp
+			c2m1_highway_h_1.lmp
+			c2m2_fairgrounds_h_1.lmp
+			c2m3_coaster_h_1.lmp
+			c2m4_barns_h_1.lmp
+			c2m5_concert_h_1.lmp
+			c3m1_plankcountry_h_1.lmp
+			c3m2_swamp_h_1.lmp
+			c3m3_shantytown_h_1.lmp
+			c3m4_plantation_h_1.lmp
+			c4m1_milltown_a_h_1.lmp
+			c4m2_sugarmill_a_h_1.lmp
+			c4m3_sugarmill_b_h_1.lmp
+			c4m4_milltown_b_h_1.lmp
+			c4m5_milltown_escape_h_1.lmp
+			c5m1_waterfront_h_1.lmp
+			c5m2_park_h_1.lmp
+			c5m3_cemetery_h_1.lmp
+			c5m4_quarter_h_1.lmp
+			c5m5_bridge_h_1.lmp
+			c6m1_riverbank_h_1.lmp
+			c6m2_bedlam_h_1.lmp
+			c6m3_port_h_1.lmp
+			c7m1_docks_h_1.lmp
+			c7m2_barge_h_1.lmp
+			c7m3_port_h_1.lmp
+			c8m1_apartment_h_1.lmp
+			c8m2_subway_h_1.lmp
+			c8m3_sewers_h_1.lmp
+			c8m4_interior_h_1.lmp
+			c8m5_rooftop_h_1.lmp
+			c9m1_alleys_h_1.lmp
+			c9m2_lots_h_1.lmp
+			c10m1_caves_h_1.lmp
+			c10m2_drainage_h_1.lmp
+			c10m3_ranchhouse_h_1.lmp
+			c10m4_mainstreet_h_1.lmp
+			c10m5_houseboat_h_1.lmp
+			c11m1_greenhouse_h_1.lmp
+			c11m2_offices_h_1.lmp
+			c11m3_garage_h_1.lmp
+			c11m4_terminal_h_1.lmp
+			c11m5_runway_h_1.lmp
+			c12m1_hilltop_h_1.lmp
+			c12m2_traintunnel_h_1.lmp
+			c12m3_bridge_h_1.lmp
+			c12m4_barn_h_1.lmp
+			c12m5_cornfield_h_1.lmp
+			c13m1_alpinecreek_h_1.lmp
+			c13m2_southpinestream_h_1.lmp
+			c13m3_memorialbridge_h_1.lmp
+			c13m4_cutthroatcreek_h_1.lmp
+			c14m1_junkyard_h_1.lmp
+			c14m2_lighthouse_h_1.lmp
+
+		LUMP 44 STRINGTABLE
+
+			c1m1_hotel_h_2.lmp
+			c1m2_streets_h_2.lmp
+			c1m3_mall_h_2.lmp
+			c1m4_atrium_h_2.lmp
+			c2m1_highway_h_2.lmp
+			c2m2_fairgrounds_h_2.lmp
+			c2m3_coaster_h_2.lmp
+			c2m4_barns_h_2.lmp
+			c2m5_concert_h_2.lmp
+			c3m1_plankcountry_h_2.lmp
+			c3m2_swamp_h_2.lmp
+			c3m3_shantytown_h_2.lmp
+			c3m4_plantation_h_2.lmp
+			c4m1_milltown_a_h_2.lmp
+			c4m2_sugarmill_a_h_2.lmp
+			c4m3_sugarmill_b_h_2.lmp
+			c4m4_milltown_b_h_2.lmp
+			c4m5_milltown_escape_h_2.lmp
+			c5m1_waterfront_h_2.lmp
+			c5m2_park_h_2.lmp
+			c5m3_cemetery_h_2.lmp
+			c5m4_quarter_h_2.lmp
+			c5m5_bridge_h_2.lmp
+			c6m1_riverbank_h_2.lmp
+			c6m2_bedlam_h_2.lmp
+			c6m3_port_h_2.lmp
+			c7m1_docks_h_2.lmp
+			c7m2_barge_h_2.lmp
+			c7m3_port_h_2.lmp
+			c8m1_apartment_h_2.lmp
+			c8m2_subway_h_2.lmp
+			c8m3_sewers_h_2.lmp
+			c8m4_interior_h_2.lmp
+			c8m5_rooftop_h_2.lmp
+			c9m1_alleys_h_2.lmp
+			c9m2_lots_h_2.lmp
+			c10m1_caves_h_2.lmp
+			c10m2_drainage_h_2.lmp
+			c10m3_ranchhouse_h_2.lmp
+			c10m4_mainstreet_h_2.lmp
+			c10m5_houseboat_h_2.lmp
+			c11m1_greenhouse_h_2.lmp
+			c11m2_offices_h_2.lmp
+			c11m3_garage_h_2.lmp
+			c11m4_terminal_h_2.lmp
+			c11m5_runway_h_2.lmp
+			c12m1_hilltop_h_2.lmp
+			c12m2_traintunnel_h_2.lmp
+			c12m3_bridge_h_2.lmp
+			c12m4_barn_h_2.lmp
+			c12m5_cornfield_h_2.lmp
+			c13m1_alpinecreek_h_2.lmp
+			c13m2_southpinestream_h_2.lmp
+			c13m3_memorialbridge_h_2.lmp
+			c13m4_cutthroatcreek_h_2.lmp
+			c14m1_junkyard_h_2.lmp
+			c14m2_lighthouse_h_2.lmp
+
+	SCAVENGE ONLY
+
+		LUMP 43 STRINGDATA
+
+			c1m1_hotel_s_1.lmp
+			c1m2_streets_s_1.lmp
+			c1m3_mall_s_1.lmp
+			c1m4_atrium_s_1.lmp
+			c2m1_highway_s_1.lmp
+			c2m2_fairgrounds_s_1.lmp
+			c2m3_coaster_s_1.lmp
+			c2m4_barns_s_1.lmp
+			c2m5_concert_s_1.lmp
+			c3m1_plankcountry_s_1.lmp
+			c3m2_swamp_s_1.lmp
+			c3m3_shantytown_s_1.lmp
+			c3m4_plantation_s_1.lmp
+			c4m1_milltown_a_s_1.lmp
+			c4m2_sugarmill_a_s_1.lmp
+			c4m3_sugarmill_b_s_1.lmp
+			c4m4_milltown_b_s_1.lmp
+			c4m5_milltown_escape_s_1.lmp
+			c5m1_waterfront_s_1.lmp
+			c5m2_park_s_1.lmp
+			c5m3_cemetery_s_1.lmp
+			c5m4_quarter_s_1.lmp
+			c5m5_bridge_s_1.lmp
+			c6m1_riverbank_s_1.lmp
+			c6m2_bedlam_s_1.lmp
+			c6m3_port_s_1.lmp
+			c7m1_docks_s_1.lmp
+			c7m2_barge_s_1.lmp
+			c7m3_port_s_1.lmp
+			c8m1_apartment_s_1.lmp
+			c8m2_subway_s_1.lmp
+			c8m3_sewers_s_1.lmp
+			c8m4_interior_s_1.lmp
+			c8m5_rooftop_s_1.lmp
+			c9m1_alleys_s_1.lmp
+			c9m2_lots_s_1.lmp
+			c10m1_caves_s_1.lmp
+			c10m2_drainage_s_1.lmp
+			c10m3_ranchhouse_s_1.lmp
+			c10m4_mainstreet_s_1.lmp
+			c10m5_houseboat_s_1.lmp
+			c11m1_greenhouse_s_1.lmp
+			c11m2_offices_s_1.lmp
+			c11m3_garage_s_1.lmp
+			c11m4_terminal_s_1.lmp
+			c11m5_runway_s_1.lmp
+			c12m1_hilltop_s_1.lmp
+			c12m2_traintunnel_s_1.lmp
+			c12m3_bridge_s_1.lmp
+			c12m4_barn_s_1.lmp
+			c12m5_cornfield_s_1.lmp
+			c13m1_alpinecreek_s_1.lmp
+			c13m2_southpinestream_s_1.lmp
+			c13m3_memorialbridge_s_1.lmp
+			c13m4_cutthroatcreek_s_1.lmp
+			c14m1_junkyard_s_1.lmp
+			c14m2_lighthouse_s_1.lmp
+
+		LUMP 44 STRINGTABLE
+
+			c1m1_hotel_s_2.lmp
+			c1m2_streets_s_2.lmp
+			c1m3_mall_s_2.lmp
+			c1m4_atrium_s_2.lmp
+			c2m1_highway_s_2.lmp
+			c2m2_fairgrounds_s_2.lmp
+			c2m3_coaster_s_2.lmp
+			c2m4_barns_s_2.lmp
+			c2m5_concert_s_2.lmp
+			c3m1_plankcountry_s_2.lmp
+			c3m2_swamp_s_2.lmp
+			c3m3_shantytown_s_2.lmp
+			c3m4_plantation_s_2.lmp
+			c4m1_milltown_a_s_2.lmp
+			c4m2_sugarmill_a_s_2.lmp
+			c4m3_sugarmill_b_s_2.lmp
+			c4m4_milltown_b_s_2.lmp
+			c4m5_milltown_escape_s_2.lmp
+			c5m1_waterfront_s_2.lmp
+			c5m2_park_s_2.lmp
+			c5m3_cemetery_s_2.lmp
+			c5m4_quarter_s_2.lmp
+			c5m5_bridge_s_2.lmp
+			c6m1_riverbank_s_2.lmp
+			c6m2_bedlam_s_2.lmp
+			c6m3_port_s_2.lmp
+			c7m1_docks_s_2.lmp
+			c7m2_barge_s_2.lmp
+			c7m3_port_s_2.lmp
+			c8m1_apartment_s_2.lmp
+			c8m2_subway_s_2.lmp
+			c8m3_sewers_s_2.lmp
+			c8m4_interior_s_2.lmp
+			c8m5_rooftop_s_2.lmp
+			c9m1_alleys_s_2.lmp
+			c9m2_lots_s_2.lmp
+			c10m1_caves_s_2.lmp
+			c10m2_drainage_s_2.lmp
+			c10m3_ranchhouse_s_2.lmp
+			c10m4_mainstreet_s_2.lmp
+			c10m5_houseboat_s_2.lmp
+			c11m1_greenhouse_s_2.lmp
+			c11m2_offices_s_2.lmp
+			c11m3_garage_s_2.lmp
+			c11m4_terminal_s_2.lmp
+			c11m5_runway_s_2.lmp
+			c12m1_hilltop_s_2.lmp
+			c12m2_traintunnel_s_2.lmp
+			c12m3_bridge_s_2.lmp
+			c12m4_barn_s_2.lmp
+			c12m5_cornfield_s_2.lmp
+			c13m1_alpinecreek_s_2.lmp
+			c13m2_southpinestream_s_2.lmp
+			c13m3_memorialbridge_s_2.lmp
+			c13m4_cutthroatcreek_s_2.lmp
+			c14m1_junkyard_s_2.lmp
+			c14m2_lighthouse_s_2.lmp
+
+These maps need to start at _l_0 since TLS didn't replace any lumps:
+
+	ALL MODES (EXCEPT SURVIVAL & SCAVENGE)
+
+		LUMP 43 STRINGDATA
+
+			c5m1_waterfront_sndscape_l_0.lmp
+			credits_l_0.lmp
+			curling_stadium_l_0.lmp
+			tutorial_standards_l_0.lmp
+			tutorial_standards_vs_l_0.lmp
+
+		LUMP 44 STRINGTABLE
+
+			c5m1_waterfront_sndscape_l_1.lmp
+			credits_l_1.lmp
+			curling_stadium_l_1.lmp
+			tutorial_standards_l_1.lmp
+			tutorial_standards_vs_l_1.lmp
+
+	SURVIVAL ONLY
+
+		LUMP 43 STRINGDATA
+
+			c5m1_waterfront_sndscape_h_0.lmp
+			credits_h_0.lmp
+			curling_stadium_h_0.lmp
+			tutorial_standards_h_0.lmp
+			tutorial_standards_vs_h_0.lmp
+
+		LUMP 44 STRINGTABLE
+
+			c5m1_waterfront_sndscape_h_1.lmp
+			credits_h_1.lmp
+			curling_stadium_h_1.lmp
+			tutorial_standards_h_1.lmp
+			tutorial_standards_vs_h_1.lmp
+
+	SCAVENGE ONLY
+
+		LUMP 43 STRINGDATA
+
+			c5m1_waterfront_sndscape_s_0.lmp
+			credits_s_0.lmp
+			curling_stadium_s_0.lmp
+			tutorial_standards_s_0.lmp
+			tutorial_standards_vs_s_0.lmp
+
+		LUMP 44 STRINGTABLE
+
+			c5m1_waterfront_sndscape_s_1.lmp
+			credits_s_1.lmp
+			curling_stadium_s_1.lmp
+			tutorial_standards_s_1.lmp
+			tutorial_standards_vs_s_1.lmp
+
+WINDOWS BATCH (*.BAT) FILE:
+
+CD "C:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\zz_left4orange\maps"
+
+ECHO ALL MODES (EXCEPT SURVIVAL & SCAVENGE)
+
+ECHO LUMP 43 STRINGDATA
+
+COPY "cXmX_mapname_l_1.lmp" "c1m1_hotel_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c1m2_streets_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c1m3_mall_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c1m4_atrium_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c2m1_highway_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c2m2_fairgrounds_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c2m3_coaster_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c2m4_barns_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c2m5_concert_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c3m1_plankcountry_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c3m2_swamp_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c3m3_shantytown_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c3m4_plantation_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c4m1_milltown_a_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c4m2_sugarmill_a_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c4m3_sugarmill_b_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c4m4_milltown_b_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c4m5_milltown_escape_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m1_waterfront_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m2_park_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m3_cemetery_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m4_quarter_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m5_bridge_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c6m1_riverbank_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c6m2_bedlam_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c6m3_port_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c7m1_docks_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c7m2_barge_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c7m3_port_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c8m1_apartment_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c8m2_subway_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c8m3_sewers_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c8m4_interior_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c8m5_rooftop_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c9m1_alleys_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c9m2_lots_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c10m1_caves_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c10m2_drainage_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c10m3_ranchhouse_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c10m4_mainstreet_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c10m5_houseboat_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c11m1_greenhouse_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c11m2_offices_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c11m3_garage_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c11m4_terminal_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c11m5_runway_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c12m1_hilltop_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c12m2_traintunnel_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c12m3_bridge_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c12m4_barn_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c12m5_cornfield_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c13m1_alpinecreek_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c13m2_southpinestream_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c13m3_memorialbridge_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c13m4_cutthroatcreek_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c14m1_junkyard_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c14m2_lighthouse_l_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m1_waterfront_sndscape_l_0.lmp"
+COPY "cXmX_mapname_l_1.lmp" "credits_l_0.lmp"
+COPY "cXmX_mapname_l_1.lmp" "curling_stadium_l_0.lmp"
+COPY "cXmX_mapname_l_1.lmp" "tutorial_standards_l_0.lmp"
+COPY "cXmX_mapname_l_1.lmp" "tutorial_standards_vs_l_0.lmp"
+
+ECHO LUMP 44 STRINGTABLE
+
+COPY "cXmX_mapname_l_2.lmp" "c1m1_hotel_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c1m2_streets_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c1m3_mall_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c1m4_atrium_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c2m1_highway_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c2m2_fairgrounds_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c2m3_coaster_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c2m4_barns_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c2m5_concert_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c3m1_plankcountry_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c3m2_swamp_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c3m3_shantytown_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c3m4_plantation_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c4m1_milltown_a_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c4m2_sugarmill_a_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c4m3_sugarmill_b_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c4m4_milltown_b_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c4m5_milltown_escape_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m1_waterfront_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m2_park_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m3_cemetery_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m4_quarter_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m5_bridge_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c6m1_riverbank_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c6m2_bedlam_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c6m3_port_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c7m1_docks_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c7m2_barge_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c7m3_port_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c8m1_apartment_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c8m2_subway_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c8m3_sewers_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c8m4_interior_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c8m5_rooftop_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c9m1_alleys_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c9m2_lots_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c10m1_caves_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c10m2_drainage_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c10m3_ranchhouse_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c10m4_mainstreet_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c10m5_houseboat_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c11m1_greenhouse_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c11m2_offices_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c11m3_garage_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c11m4_terminal_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c11m5_runway_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c12m1_hilltop_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c12m2_traintunnel_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c12m3_bridge_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c12m4_barn_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c12m5_cornfield_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c13m1_alpinecreek_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c13m2_southpinestream_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c13m3_memorialbridge_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c13m4_cutthroatcreek_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c14m1_junkyard_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c14m2_lighthouse_l_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m1_waterfront_sndscape_l_1.lmp"
+COPY "cXmX_mapname_l_2.lmp" "credits_l_1.lmp"
+COPY "cXmX_mapname_l_2.lmp" "curling_stadium_l_1.lmp"
+COPY "cXmX_mapname_l_2.lmp" "tutorial_standards_l_1.lmp"
+COPY "cXmX_mapname_l_2.lmp" "tutorial_standards_vs_l_1.lmp"
+
+ECHO SURVIVAL ONLY
+
+ECHO LUMP 43 STRINGDATA
+
+COPY "cXmX_mapname_l_1.lmp" "c1m1_hotel_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c1m2_streets_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c1m3_mall_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c1m4_atrium_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c2m1_highway_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c2m2_fairgrounds_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c2m3_coaster_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c2m4_barns_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c2m5_concert_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c3m1_plankcountry_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c3m2_swamp_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c3m3_shantytown_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c3m4_plantation_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c4m1_milltown_a_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c4m2_sugarmill_a_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c4m3_sugarmill_b_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c4m4_milltown_b_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c4m5_milltown_escape_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m1_waterfront_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m2_park_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m3_cemetery_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m4_quarter_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m5_bridge_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c6m1_riverbank_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c6m2_bedlam_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c6m3_port_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c7m1_docks_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c7m2_barge_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c7m3_port_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c8m1_apartment_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c8m2_subway_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c8m3_sewers_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c8m4_interior_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c8m5_rooftop_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c9m1_alleys_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c9m2_lots_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c10m1_caves_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c10m2_drainage_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c10m3_ranchhouse_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c10m4_mainstreet_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c10m5_houseboat_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c11m1_greenhouse_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c11m2_offices_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c11m3_garage_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c11m4_terminal_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c11m5_runway_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c12m1_hilltop_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c12m2_traintunnel_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c12m3_bridge_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c12m4_barn_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c12m5_cornfield_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c13m1_alpinecreek_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c13m2_southpinestream_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c13m3_memorialbridge_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c13m4_cutthroatcreek_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c14m1_junkyard_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c14m2_lighthouse_h_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m1_waterfront_sndscape_h_0.lmp"
+COPY "cXmX_mapname_l_1.lmp" "credits_h_0.lmp"
+COPY "cXmX_mapname_l_1.lmp" "curling_stadium_h_0.lmp"
+COPY "cXmX_mapname_l_1.lmp" "tutorial_standards_h_0.lmp"
+COPY "cXmX_mapname_l_1.lmp" "tutorial_standards_vs_h_0.lmp"
+
+ECHO LUMP 44 STRINGTABLE
+
+COPY "cXmX_mapname_l_2.lmp" "c1m1_hotel_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c1m2_streets_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c1m3_mall_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c1m4_atrium_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c2m1_highway_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c2m2_fairgrounds_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c2m3_coaster_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c2m4_barns_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c2m5_concert_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c3m1_plankcountry_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c3m2_swamp_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c3m3_shantytown_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c3m4_plantation_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c4m1_milltown_a_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c4m2_sugarmill_a_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c4m3_sugarmill_b_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c4m4_milltown_b_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c4m5_milltown_escape_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m1_waterfront_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m2_park_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m3_cemetery_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m4_quarter_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m5_bridge_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c6m1_riverbank_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c6m2_bedlam_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c6m3_port_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c7m1_docks_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c7m2_barge_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c7m3_port_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c8m1_apartment_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c8m2_subway_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c8m3_sewers_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c8m4_interior_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c8m5_rooftop_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c9m1_alleys_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c9m2_lots_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c10m1_caves_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c10m2_drainage_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c10m3_ranchhouse_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c10m4_mainstreet_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c10m5_houseboat_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c11m1_greenhouse_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c11m2_offices_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c11m3_garage_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c11m4_terminal_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c11m5_runway_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c12m1_hilltop_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c12m2_traintunnel_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c12m3_bridge_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c12m4_barn_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c12m5_cornfield_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c13m1_alpinecreek_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c13m2_southpinestream_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c13m3_memorialbridge_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c13m4_cutthroatcreek_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c14m1_junkyard_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c14m2_lighthouse_h_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m1_waterfront_sndscape_h_1.lmp"
+COPY "cXmX_mapname_l_2.lmp" "credits_h_1.lmp"
+COPY "cXmX_mapname_l_2.lmp" "curling_stadium_h_1.lmp"
+COPY "cXmX_mapname_l_2.lmp" "tutorial_standards_h_1.lmp"
+COPY "cXmX_mapname_l_2.lmp" "tutorial_standards_vs_h_1.lmp"
+
+ECHO SCAVENGE ONLY
+
+ECHO LUMP 43 STRINGDATA
+
+COPY "cXmX_mapname_l_1.lmp" "c1m1_hotel_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c1m2_streets_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c1m3_mall_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c1m4_atrium_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c2m1_highway_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c2m2_fairgrounds_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c2m3_coaster_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c2m4_barns_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c2m5_concert_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c3m1_plankcountry_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c3m2_swamp_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c3m3_shantytown_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c3m4_plantation_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c4m1_milltown_a_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c4m2_sugarmill_a_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c4m3_sugarmill_b_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c4m4_milltown_b_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c4m5_milltown_escape_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m1_waterfront_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m2_park_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m3_cemetery_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m4_quarter_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m5_bridge_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c6m1_riverbank_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c6m2_bedlam_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c6m3_port_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c7m1_docks_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c7m2_barge_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c7m3_port_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c8m1_apartment_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c8m2_subway_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c8m3_sewers_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c8m4_interior_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c8m5_rooftop_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c9m1_alleys_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c9m2_lots_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c10m1_caves_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c10m2_drainage_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c10m3_ranchhouse_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c10m4_mainstreet_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c10m5_houseboat_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c11m1_greenhouse_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c11m2_offices_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c11m3_garage_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c11m4_terminal_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c11m5_runway_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c12m1_hilltop_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c12m2_traintunnel_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c12m3_bridge_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c12m4_barn_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c12m5_cornfield_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c13m1_alpinecreek_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c13m2_southpinestream_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c13m3_memorialbridge_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c13m4_cutthroatcreek_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c14m1_junkyard_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c14m2_lighthouse_s_1.lmp"
+COPY "cXmX_mapname_l_1.lmp" "c5m1_waterfront_sndscape_s_0.lmp"
+COPY "cXmX_mapname_l_1.lmp" "credits_s_0.lmp"
+COPY "cXmX_mapname_l_1.lmp" "curling_stadium_s_0.lmp"
+COPY "cXmX_mapname_l_1.lmp" "tutorial_standards_s_0.lmp"
+COPY "cXmX_mapname_l_1.lmp" "tutorial_standards_vs_s_0.lmp"
+
+ECHO LUMP 44 STRINGTABLE
+
+COPY "cXmX_mapname_l_2.lmp" "c1m1_hotel_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c1m2_streets_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c1m3_mall_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c1m4_atrium_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c2m1_highway_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c2m2_fairgrounds_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c2m3_coaster_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c2m4_barns_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c2m5_concert_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c3m1_plankcountry_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c3m2_swamp_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c3m3_shantytown_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c3m4_plantation_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c4m1_milltown_a_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c4m2_sugarmill_a_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c4m3_sugarmill_b_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c4m4_milltown_b_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c4m5_milltown_escape_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m1_waterfront_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m2_park_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m3_cemetery_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m4_quarter_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m5_bridge_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c6m1_riverbank_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c6m2_bedlam_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c6m3_port_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c7m1_docks_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c7m2_barge_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c7m3_port_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c8m1_apartment_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c8m2_subway_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c8m3_sewers_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c8m4_interior_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c8m5_rooftop_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c9m1_alleys_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c9m2_lots_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c10m1_caves_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c10m2_drainage_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c10m3_ranchhouse_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c10m4_mainstreet_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c10m5_houseboat_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c11m1_greenhouse_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c11m2_offices_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c11m3_garage_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c11m4_terminal_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c11m5_runway_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c12m1_hilltop_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c12m2_traintunnel_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c12m3_bridge_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c12m4_barn_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c12m5_cornfield_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c13m1_alpinecreek_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c13m2_southpinestream_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c13m3_memorialbridge_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c13m4_cutthroatcreek_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c14m1_junkyard_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c14m2_lighthouse_s_2.lmp"
+COPY "cXmX_mapname_l_2.lmp" "c5m1_waterfront_sndscape_s_1.lmp"
+COPY "cXmX_mapname_l_2.lmp" "credits_s_1.lmp"
+COPY "cXmX_mapname_l_2.lmp" "curling_stadium_s_1.lmp"
+COPY "cXmX_mapname_l_2.lmp" "tutorial_standards_s_1.lmp"
+COPY "cXmX_mapname_l_2.lmp" "tutorial_standards_vs_s_1.lmp"
+
+DONE.
