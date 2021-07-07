@@ -15,6 +15,40 @@ Information below is summarized from:
 
 See "Lump Hashes and Information.txt" for MD5, SHA1, File Sizes and more.
 
+# The Need
+
+Officially, map recompiles aren't allowed due to "testing cost and risk".
+We can't even officially recompile Cold Stream 1 to fix a Crash-to-Desktop.
+Millions of people play L4D2 on thousands of varied hardware setups, so
+on that basis alone it's wise to not recompile. Valve knows how black magic
+BSP files and compilation can be. The other reason is we're not authorized
+to create a "Remaster" -- that would demand an entirely separate Steam Store
+item, and only to that extreme would recompiles make sense. Lump editing is
+powerful, but it also naturally limits options and enforces self-control.
+
+For The Last Stand Community Update aka TLS:
+
+  https://github.com/Tsuey/L4D2-Community-Update
+
+VScript was used to overcome some BSP limitations. 14_LUMP_MODELS was used
+(or should I say abused) extensively for that to clone pre-existing Infected
+ladders to create new ones. Cloning brushes (that are tied to edicts) was
+already exhaustively used... now it's about manipulating baked-in brushes
+that previously could only be achieved with Hammer recompiles.
+
+# The Goal
+
+Make the official L4D2 maps flexible. This isn't about forcing subjective
+changes or entities on players, it's about allowing server mods to have
+more control over how they change the maps (clips / dynamic pathing) with
+the smaller side effect of benefitting official vanilla Versus updates,
+updates to Mutations, easing clipping for RocketDude, etc.
+
+It's about finding what can be changed, with minimal visual impact on
+the default/original maps, and supplementing those changes with VScript
+that can dynamically add/remove previously-baked-in clips, or Propper
+restoration of modified world geometry to empower us with dynamic options.
+
 Keeping everything above-board is critical for this type of project since
 the goal is to (indirectly) modify Valve's original map BSP files. This
 will allow official updates to accomplish the previous unthinkable, where
