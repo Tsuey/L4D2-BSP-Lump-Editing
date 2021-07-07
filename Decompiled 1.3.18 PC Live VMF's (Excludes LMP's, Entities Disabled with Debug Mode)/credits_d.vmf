@@ -1,0 +1,1250 @@
+world
+{
+	"id" "1"
+	"skyname" "sky_wasteland02"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"mapversion" "26"
+	"comment" "Decompiled by BSPSource v1.3.18 from credits"
+	"classname" "worldspawn"
+	solid
+	{
+		"id" "2"
+		bspsrc_debug
+		{
+			"brush_index" "0"
+			"brush_contents" "[CONTENTS_SOLID]"
+		}
+		side
+		{
+			"id" "3"
+			bspsrc_debug
+			{
+				"brushside_index" "0"
+				"normal" "1 0 0"
+				"winding" "[(-192.0, -800.0, 16.0), (-192.0, -800.0, -0.0), (-192.0, 288.0, -0.0), (-192.0, 288.0, 16.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 -800 16) (-192 -800 -0) (-192 288 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 1 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "4"
+			bspsrc_debug
+			{
+				"brushside_index" "1"
+				"normal" "-1 0 -0"
+				"winding" "[(448.0, 288.0, 16.0), (448.0, 288.0, -0.0), (448.0, -800.0, -0.0), (448.0, -800.0, 16.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 288 16) (448 288 -0) (448 -800 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[-0 -1 0 0] 0.2"
+			"vaxis" "[0 -0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "5"
+			bspsrc_debug
+			{
+				"brushside_index" "2"
+				"normal" "0 1 0"
+				"winding" "[(448.0, -800.0, 16.0), (448.0, -800.0, -0.0), (-192.0, -800.0, -0.0), (-192.0, -800.0, 16.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "1"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 -800 16) (448 -800 -0) (-192 -800 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "6"
+			bspsrc_debug
+			{
+				"brushside_index" "3"
+				"normal" "0 -1 0"
+				"winding" "[(-192.0, 288.0, 16.0), (-192.0, 288.0, -0.0), (448.0, 288.0, -0.0), (448.0, 288.0, 16.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 288 16) (-192 288 -0) (448 288 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 -0 0] 0.2"
+			"vaxis" "[0 -0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "7"
+			bspsrc_debug
+			{
+				"brushside_index" "4"
+				"normal" "0 0 1"
+				"winding" "[(-192.0, 288.0, 0.0), (-192.0, -800.0, 0.0), (448.0, -800.0, 0.0), (448.0, 288.0, 0.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 288 0) (-192 -800 0) (448 -800 0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "8"
+			bspsrc_debug
+			{
+				"brushside_index" "5"
+				"normal" "0 0 -1"
+				"winding" "[(-192.0, -800.0, 16.0), (-192.0, 288.0, 16.0), (448.0, 288.0, 16.0), (448.0, -800.0, 16.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 -800 16) (-192 288 16) (448 288 16)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "9"
+		bspsrc_debug
+		{
+			"brush_index" "1"
+			"brush_contents" "[CONTENTS_SOLID]"
+		}
+		side
+		{
+			"id" "10"
+			bspsrc_debug
+			{
+				"brushside_index" "6"
+				"normal" "1 0 0"
+				"winding" "[(-192.0, -816.0, 656.0), (-192.0, -816.0, 128.0), (-192.0, -800.0, 128.0), (-192.0, -800.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "2"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 -816 656) (-192 -816 128) (-192 -800 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 1 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "11"
+			bspsrc_debug
+			{
+				"brushside_index" "7"
+				"normal" "-1 0 -0"
+				"winding" "[(448.0, -800.0, 656.0), (448.0, -800.0, 128.0), (448.0, -816.0, 128.0), (448.0, -816.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "2"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 -800 656) (448 -800 128) (448 -816 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 1 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "12"
+			bspsrc_debug
+			{
+				"brushside_index" "8"
+				"normal" "0 1 0"
+				"winding" "[(448.0, -816.0, 656.0), (448.0, -816.0, 128.0), (-192.0, -816.0, 128.0), (-192.0, -816.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 -816 656) (448 -816 128) (-192 -816 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[-1 0 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "13"
+			bspsrc_debug
+			{
+				"brushside_index" "9"
+				"normal" "0 -1 0"
+				"winding" "[(-192.0, -800.0, 656.0), (-192.0, -800.0, 128.0), (448.0, -800.0, 128.0), (448.0, -800.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "1"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 -800 656) (-192 -800 128) (448 -800 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "14"
+			bspsrc_debug
+			{
+				"brushside_index" "10"
+				"normal" "0 0 1"
+				"winding" "[(-192.0, -800.0, 128.0), (-192.0, -816.0, 128.0), (448.0, -816.0, 128.0), (448.0, -800.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 -800 128) (-192 -816 128) (448 -816 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "15"
+			bspsrc_debug
+			{
+				"brushside_index" "11"
+				"normal" "0 0 -1"
+				"winding" "[(-192.0, -816.0, 656.0), (-192.0, -800.0, 656.0), (448.0, -800.0, 656.0), (448.0, -816.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 -816 656) (-192 -800 656) (448 -800 656)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "16"
+		bspsrc_debug
+		{
+			"brush_index" "2"
+			"brush_contents" "[CONTENTS_SOLID]"
+		}
+		side
+		{
+			"id" "17"
+			bspsrc_debug
+			{
+				"brushside_index" "16"
+				"normal" "0 0 1"
+				"winding" "[(-192.0, -800.0, 0.0), (-192.0, -816.0, 0.0), (448.0, -816.0, 0.0), (448.0, -800.0, 0.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 -800 0) (-192 -816 0) (448 -816 0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "18"
+			bspsrc_debug
+			{
+				"brushside_index" "17"
+				"normal" "0 0 -1"
+				"winding" "[(-192.0, -816.0, 128.0), (-192.0, -800.0, 128.0), (448.0, -800.0, 128.0), (448.0, -816.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 -816 128) (-192 -800 128) (448 -800 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "19"
+			bspsrc_debug
+			{
+				"brushside_index" "12"
+				"normal" "1 0 0"
+				"winding" "[(-192.0, -816.0, 128.0), (-192.0, -816.0, -0.0), (-192.0, -800.0, -0.0), (-192.0, -800.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "2"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 -816 128) (-192 -816 -0) (-192 -800 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 1 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "20"
+			bspsrc_debug
+			{
+				"brushside_index" "13"
+				"normal" "-1 0 -0"
+				"winding" "[(448.0, -800.0, 128.0), (448.0, -800.0, -0.0), (448.0, -816.0, -0.0), (448.0, -816.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "2"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 -800 128) (448 -800 -0) (448 -816 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 1 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "21"
+			bspsrc_debug
+			{
+				"brushside_index" "14"
+				"normal" "0 1 0"
+				"winding" "[(448.0, -816.0, 128.0), (448.0, -816.0, -0.0), (-192.0, -816.0, -0.0), (-192.0, -816.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 -816 128) (448 -816 -0) (-192 -816 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[-1 0 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "22"
+			bspsrc_debug
+			{
+				"brushside_index" "15"
+				"normal" "0 -1 0"
+				"winding" "[(-192.0, -800.0, 128.0), (-192.0, -800.0, -0.0), (448.0, -800.0, -0.0), (448.0, -800.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "1"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 -800 128) (-192 -800 -0) (448 -800 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "23"
+		bspsrc_debug
+		{
+			"brush_index" "3"
+			"brush_contents" "[CONTENTS_SOLID]"
+		}
+		side
+		{
+			"id" "24"
+			bspsrc_debug
+			{
+				"brushside_index" "18"
+				"normal" "1 0 0"
+				"winding" "[(-192.0, 288.0, 656.0), (-192.0, 288.0, 128.0), (-192.0, 304.0, 128.0), (-192.0, 304.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "2"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 288 656) (-192 288 128) (-192 304 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 1 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "25"
+			bspsrc_debug
+			{
+				"brushside_index" "19"
+				"normal" "-1 0 -0"
+				"winding" "[(448.0, 304.0, 656.0), (448.0, 304.0, 128.0), (448.0, 288.0, 128.0), (448.0, 288.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "2"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 304 656) (448 304 128) (448 288 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 1 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "26"
+			bspsrc_debug
+			{
+				"brushside_index" "20"
+				"normal" "0 1 0"
+				"winding" "[(448.0, 288.0, 656.0), (448.0, 288.0, 128.0), (-192.0, 288.0, 128.0), (-192.0, 288.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "1"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 288 656) (448 288 128) (-192 288 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "27"
+			bspsrc_debug
+			{
+				"brushside_index" "21"
+				"normal" "0 -1 0"
+				"winding" "[(-192.0, 304.0, 656.0), (-192.0, 304.0, 128.0), (448.0, 304.0, 128.0), (448.0, 304.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 304 656) (-192 304 128) (448 304 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 -0 0] 0.2"
+			"vaxis" "[0 -0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "28"
+			bspsrc_debug
+			{
+				"brushside_index" "22"
+				"normal" "0 0 1"
+				"winding" "[(-192.0, 304.0, 128.0), (-192.0, 288.0, 128.0), (448.0, 288.0, 128.0), (448.0, 304.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 304 128) (-192 288 128) (448 288 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "29"
+			bspsrc_debug
+			{
+				"brushside_index" "23"
+				"normal" "0 0 -1"
+				"winding" "[(-192.0, 288.0, 656.0), (-192.0, 304.0, 656.0), (448.0, 304.0, 656.0), (448.0, 288.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 288 656) (-192 304 656) (448 304 656)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "30"
+		bspsrc_debug
+		{
+			"brush_index" "4"
+			"brush_contents" "[CONTENTS_SOLID]"
+		}
+		side
+		{
+			"id" "31"
+			bspsrc_debug
+			{
+				"brushside_index" "24"
+				"normal" "1 0 0"
+				"winding" "[(-192.0, 288.0, 128.0), (-192.0, 288.0, -0.0), (-192.0, 304.0, -0.0), (-192.0, 304.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "2"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 288 128) (-192 288 -0) (-192 304 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 1 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "32"
+			bspsrc_debug
+			{
+				"brushside_index" "25"
+				"normal" "-1 0 -0"
+				"winding" "[(448.0, 304.0, 128.0), (448.0, 304.0, -0.0), (448.0, 288.0, -0.0), (448.0, 288.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "2"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 304 128) (448 304 -0) (448 288 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 1 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "33"
+			bspsrc_debug
+			{
+				"brushside_index" "26"
+				"normal" "0 1 0"
+				"winding" "[(448.0, 288.0, 128.0), (448.0, 288.0, -0.0), (-192.0, 288.0, -0.0), (-192.0, 288.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "1"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 288 128) (448 288 -0) (-192 288 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "34"
+			bspsrc_debug
+			{
+				"brushside_index" "27"
+				"normal" "0 -1 0"
+				"winding" "[(-192.0, 304.0, 128.0), (-192.0, 304.0, -0.0), (448.0, 304.0, -0.0), (448.0, 304.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 304 128) (-192 304 -0) (448 304 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 -0 0] 0.2"
+			"vaxis" "[0 -0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "35"
+			bspsrc_debug
+			{
+				"brushside_index" "28"
+				"normal" "0 0 1"
+				"winding" "[(-192.0, 304.0, 0.0), (-192.0, 288.0, 0.0), (448.0, 288.0, 0.0), (448.0, 304.0, 0.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 304 0) (-192 288 0) (448 288 0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "36"
+			bspsrc_debug
+			{
+				"brushside_index" "29"
+				"normal" "0 0 -1"
+				"winding" "[(-192.0, 288.0, 128.0), (-192.0, 304.0, 128.0), (448.0, 304.0, 128.0), (448.0, 288.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 288 128) (-192 304 128) (448 304 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "37"
+		bspsrc_debug
+		{
+			"brush_index" "5"
+			"brush_contents" "[CONTENTS_SOLID]"
+		}
+		side
+		{
+			"id" "38"
+			bspsrc_debug
+			{
+				"brushside_index" "32"
+				"normal" "0 1 0"
+				"winding" "[(464.0, -816.0, 656.0), (464.0, -816.0, 128.0), (448.0, -816.0, 128.0), (448.0, -816.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(464 -816 656) (464 -816 128) (448 -816 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[-1 0 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "39"
+			bspsrc_debug
+			{
+				"brushside_index" "33"
+				"normal" "0 -1 0"
+				"winding" "[(448.0, 304.0, 656.0), (448.0, 304.0, 128.0), (464.0, 304.0, 128.0), (464.0, 304.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 304 656) (448 304 128) (464 304 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 -0 0] 0.2"
+			"vaxis" "[0 -0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "40"
+			bspsrc_debug
+			{
+				"brushside_index" "34"
+				"normal" "0 0 1"
+				"winding" "[(448.0, 304.0, 128.0), (448.0, -816.0, 128.0), (464.0, -816.0, 128.0), (464.0, 304.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 304 128) (448 -816 128) (464 -816 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "41"
+			bspsrc_debug
+			{
+				"brushside_index" "35"
+				"normal" "0 0 -1"
+				"winding" "[(448.0, -816.0, 656.0), (448.0, 304.0, 656.0), (464.0, 304.0, 656.0), (464.0, -816.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 -816 656) (448 304 656) (464 304 656)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "42"
+			bspsrc_debug
+			{
+				"brushside_index" "30"
+				"normal" "1 0 0"
+				"winding" "[(448.0, -816.0, 656.0), (448.0, -816.0, 128.0), (448.0, 304.0, 128.0), (448.0, 304.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "2"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 -816 656) (448 -816 128) (448 304 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 1 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "43"
+			bspsrc_debug
+			{
+				"brushside_index" "31"
+				"normal" "-1 0 -0"
+				"winding" "[(464.0, 304.0, 656.0), (464.0, 304.0, 128.0), (464.0, -816.0, 128.0), (464.0, -816.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(464 304 656) (464 304 128) (464 -816 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[-0 -1 0 0] 0.2"
+			"vaxis" "[0 -0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "44"
+		bspsrc_debug
+		{
+			"brush_index" "6"
+			"brush_contents" "[CONTENTS_SOLID]"
+		}
+		side
+		{
+			"id" "45"
+			bspsrc_debug
+			{
+				"brushside_index" "36"
+				"normal" "1 0 0"
+				"winding" "[(448.0, -816.0, 128.0), (448.0, -816.0, -0.0), (448.0, 304.0, -0.0), (448.0, 304.0, 128.0)]"
+				"original_material" "maps/credits/dev/dev_blendmeasure_wvt_patch"
+				"texinfo_index" "3"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 -816 128) (448 -816 -0) (448 304 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_blendmeasure"
+			"uaxis" "[0 1 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "46"
+			bspsrc_debug
+			{
+				"brushside_index" "37"
+				"normal" "-1 0 -0"
+				"winding" "[(464.0, 304.0, 128.0), (464.0, 304.0, -0.0), (464.0, -816.0, -0.0), (464.0, -816.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(464 304 128) (464 304 -0) (464 -816 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[-0 -1 0 0] 0.2"
+			"vaxis" "[0 -0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "47"
+			bspsrc_debug
+			{
+				"brushside_index" "38"
+				"normal" "0 1 0"
+				"winding" "[(464.0, -816.0, 128.0), (464.0, -816.0, -0.0), (448.0, -816.0, -0.0), (448.0, -816.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(464 -816 128) (464 -816 -0) (448 -816 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[-1 0 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "48"
+			bspsrc_debug
+			{
+				"brushside_index" "39"
+				"normal" "0 -1 0"
+				"winding" "[(448.0, 304.0, 128.0), (448.0, 304.0, -0.0), (464.0, 304.0, -0.0), (464.0, 304.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 304 128) (448 304 -0) (464 304 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 -0 0] 0.2"
+			"vaxis" "[0 -0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "49"
+			bspsrc_debug
+			{
+				"brushside_index" "40"
+				"normal" "0 0 1"
+				"winding" "[(448.0, 304.0, 0.0), (448.0, -816.0, 0.0), (464.0, -816.0, 0.0), (464.0, 304.0, 0.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 304 0) (448 -816 0) (464 -816 0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "50"
+			bspsrc_debug
+			{
+				"brushside_index" "41"
+				"normal" "0 0 -1"
+				"winding" "[(448.0, -816.0, 128.0), (448.0, 304.0, 128.0), (464.0, 304.0, 128.0), (464.0, -816.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(448 -816 128) (448 304 128) (464 304 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "51"
+		bspsrc_debug
+		{
+			"brush_index" "7"
+			"brush_contents" "[CONTENTS_SOLID]"
+		}
+		side
+		{
+			"id" "52"
+			bspsrc_debug
+			{
+				"brushside_index" "42"
+				"normal" "1 0 0"
+				"winding" "[(-208.0, -816.0, 656.0), (-208.0, -816.0, 128.0), (-208.0, 304.0, 128.0), (-208.0, 304.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-208 -816 656) (-208 -816 128) (-208 304 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 1 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "53"
+			bspsrc_debug
+			{
+				"brushside_index" "43"
+				"normal" "-1 0 -0"
+				"winding" "[(-192.0, 304.0, 656.0), (-192.0, 304.0, 128.0), (-192.0, -816.0, 128.0), (-192.0, -816.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "2"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 304 656) (-192 304 128) (-192 -816 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 1 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "54"
+			bspsrc_debug
+			{
+				"brushside_index" "44"
+				"normal" "0 1 0"
+				"winding" "[(-192.0, -816.0, 656.0), (-192.0, -816.0, 128.0), (-208.0, -816.0, 128.0), (-208.0, -816.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 -816 656) (-192 -816 128) (-208 -816 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[-1 0 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "55"
+			bspsrc_debug
+			{
+				"brushside_index" "45"
+				"normal" "0 -1 0"
+				"winding" "[(-208.0, 304.0, 656.0), (-208.0, 304.0, 128.0), (-192.0, 304.0, 128.0), (-192.0, 304.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-208 304 656) (-208 304 128) (-192 304 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 -0 0] 0.2"
+			"vaxis" "[0 -0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "56"
+			bspsrc_debug
+			{
+				"brushside_index" "46"
+				"normal" "0 0 1"
+				"winding" "[(-208.0, 304.0, 128.0), (-208.0, -816.0, 128.0), (-192.0, -816.0, 128.0), (-192.0, 304.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-208 304 128) (-208 -816 128) (-192 -816 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "57"
+			bspsrc_debug
+			{
+				"brushside_index" "47"
+				"normal" "0 0 -1"
+				"winding" "[(-208.0, -816.0, 656.0), (-208.0, 304.0, 656.0), (-192.0, 304.0, 656.0), (-192.0, -816.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-208 -816 656) (-208 304 656) (-192 304 656)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "58"
+		bspsrc_debug
+		{
+			"brush_index" "8"
+			"brush_contents" "[CONTENTS_SOLID]"
+		}
+		side
+		{
+			"id" "59"
+			bspsrc_debug
+			{
+				"brushside_index" "48"
+				"normal" "1 0 0"
+				"winding" "[(-208.0, -816.0, 128.0), (-208.0, -816.0, -0.0), (-208.0, 304.0, -0.0), (-208.0, 304.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-208 -816 128) (-208 -816 -0) (-208 304 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 1 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "60"
+			bspsrc_debug
+			{
+				"brushside_index" "49"
+				"normal" "-1 0 -0"
+				"winding" "[(-192.0, 304.0, 128.0), (-192.0, 304.0, -0.0), (-192.0, -816.0, -0.0), (-192.0, -816.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "2"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 304 128) (-192 304 -0) (-192 -816 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 1 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "61"
+			bspsrc_debug
+			{
+				"brushside_index" "50"
+				"normal" "0 1 0"
+				"winding" "[(-192.0, -816.0, 128.0), (-192.0, -816.0, -0.0), (-208.0, -816.0, -0.0), (-208.0, -816.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-192 -816 128) (-192 -816 -0) (-208 -816 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[-1 0 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "62"
+			bspsrc_debug
+			{
+				"brushside_index" "51"
+				"normal" "0 -1 0"
+				"winding" "[(-208.0, 304.0, 128.0), (-208.0, 304.0, -0.0), (-192.0, 304.0, -0.0), (-192.0, 304.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-208 304 128) (-208 304 -0) (-192 304 -0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 -0 0] 0.2"
+			"vaxis" "[0 -0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "63"
+			bspsrc_debug
+			{
+				"brushside_index" "52"
+				"normal" "0 0 1"
+				"winding" "[(-208.0, 304.0, 0.0), (-208.0, -816.0, 0.0), (-192.0, -816.0, 0.0), (-192.0, 304.0, 0.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-208 304 0) (-208 -816 0) (-192 -816 0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "64"
+			bspsrc_debug
+			{
+				"brushside_index" "53"
+				"normal" "0 0 -1"
+				"winding" "[(-208.0, -816.0, 128.0), (-208.0, 304.0, 128.0), (-192.0, 304.0, 128.0), (-192.0, -816.0, 128.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-208 -816 128) (-208 304 128) (-192 304 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "65"
+		bspsrc_debug
+		{
+			"brush_index" "9"
+			"brush_contents" "[CONTENTS_SOLID]"
+		}
+		side
+		{
+			"id" "66"
+			bspsrc_debug
+			{
+				"brushside_index" "54"
+				"normal" "1 0 0"
+				"winding" "[(-208.0, -816.0, 672.0), (-208.0, -816.0, 656.0), (-208.0, 304.0, 656.0), (-208.0, 304.0, 672.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-208 -816 672) (-208 -816 656) (-208 304 656)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 1 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "67"
+			bspsrc_debug
+			{
+				"brushside_index" "55"
+				"normal" "-1 0 -0"
+				"winding" "[(464.0, 304.0, 672.0), (464.0, 304.0, 656.0), (464.0, -816.0, 656.0), (464.0, -816.0, 672.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(464 304 672) (464 304 656) (464 -816 656)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[-0 -1 0 0] 0.2"
+			"vaxis" "[0 -0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "68"
+			bspsrc_debug
+			{
+				"brushside_index" "56"
+				"normal" "0 1 0"
+				"winding" "[(464.0, -816.0, 672.0), (464.0, -816.0, 656.0), (-208.0, -816.0, 656.0), (-208.0, -816.0, 672.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(464 -816 672) (464 -816 656) (-208 -816 656)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[-1 0 0 0] 0.2"
+			"vaxis" "[0 0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "69"
+			bspsrc_debug
+			{
+				"brushside_index" "57"
+				"normal" "0 -1 0"
+				"winding" "[(-208.0, 304.0, 672.0), (-208.0, 304.0, 656.0), (464.0, 304.0, 656.0), (464.0, 304.0, 672.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-208 304 672) (-208 304 656) (464 304 656)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 -0 0] 0.2"
+			"vaxis" "[0 -0 -1 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "70"
+			bspsrc_debug
+			{
+				"brushside_index" "58"
+				"normal" "0 0 1"
+				"winding" "[(-208.0, 304.0, 656.0), (-208.0, -816.0, 656.0), (464.0, -816.0, 656.0), (464.0, 304.0, 656.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-208 304 656) (-208 -816 656) (464 -816 656)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "71"
+			bspsrc_debug
+			{
+				"brushside_index" "59"
+				"normal" "0 0 -1"
+				"winding" "[(-208.0, -816.0, 672.0), (-208.0, 304.0, 672.0), (464.0, 304.0, 672.0), (464.0, -816.0, 672.0)]"
+				"original_material" "TOOLS/TOOLSBLACK"
+				"texinfo_index" "0"
+				"texinfo_flags" "[]"
+			}
+			"plane" "(-208 -816 672) (-208 304 672) (464 304 672)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.2"
+			"vaxis" "[0 -1 0 0] 0.2"
+			"lightmapscale" "16"
+		}
+	}
+}
+cameras
+{
+	"activecamera" "0"
+	camera
+	{
+		"position" "[312.8 -479.7 109.2]"
+		"look" "[60.1 -479.7 25]"
+	}
+}
