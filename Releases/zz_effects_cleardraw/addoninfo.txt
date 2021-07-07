@@ -1,0 +1,16 @@
+"AddonInfo"
+{
+	addonSteamAppID		550
+	addontitle		"EFFECTS/CLEARDRAW"
+	addontagline		"Forget NODRAW. Get CLEARDRAW."
+	addonDescription	"Forget NODRAW. Get CLEARDRAW."
+	addonversion		1
+	addonContent_Campaign	1
+	addonContent_Versus	1
+	addonContent_Survival	1
+	addonContent_Scavenge	1
+	addonauthor		"Tsuey"
+	addonauthorSteamID	"Tsuey"
+	addonURL0		"https://github.com/Tsuey/L4D2-Community-Update"
+	addonURL1		"https://steamcommunity.com/app/550/discussions/1/1651043320659915818/"
+}
